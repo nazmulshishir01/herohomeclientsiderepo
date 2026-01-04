@@ -24,7 +24,7 @@ import axios from "axios";
 import ServiceCard from "../components/ServiceCard";
 import { useTheme } from "../contexts/ThemeProvider";
 
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -48,7 +48,7 @@ const Home = () => {
 
   const fetchData = async () => {
     try {
-      // Fetch services
+      
       const [servicesRes, topRatedRes, statsRes] = await Promise.all([
         axios.get(`${import.meta.env.VITE_API_URL}/services?limit=6`),
         axios.get(`${import.meta.env.VITE_API_URL}/top-rated-services`),
@@ -60,7 +60,7 @@ const Home = () => {
       if (statsRes.data) setStats(statsRes.data);
     } catch (error) {
       console.error("Error fetching data:", error);
-      // Set dummy data
+     
       setServices(getDummyServices());
       setTopRatedServices(getDummyServices());
     } finally {
