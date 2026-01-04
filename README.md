@@ -3,7 +3,7 @@
 🏠 **HomeHero** - Local Household Service Marketplace
 
 ## 🚀 Live Site
-[Live Site URL](https://your-site-url.web.app)
+[Live Site URL](https://homehero-bd.web.app)
 
 ## 📋 Features
 
