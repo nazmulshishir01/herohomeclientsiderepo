@@ -88,65 +88,10 @@ firebase init
 firebase deploy
 ```
 
-## 📁 Project Structure
-```
-src/
-├── components/          # Reusable components
-│   ├── Header.jsx
-│   ├── Footer.jsx
-│   ├── ServiceCard.jsx
-│   ├── LoadingSpinner.jsx
-│   └── PrivateRoute.jsx
-├── config/
-│   └── firebase.config.js
-├── contexts/
-│   ├── AuthProvider.jsx
-│   └── ThemeProvider.jsx
-├── layouts/
-│   ├── MainLayout.jsx
-│   └── DashboardLayout.jsx
-├── pages/
-│   ├── Home.jsx
-│   ├── Services.jsx
-│   ├── ServiceDetails.jsx
-│   ├── Login.jsx
-│   ├── Register.jsx
-│   ├── About.jsx
-│   ├── Contact.jsx
-│   ├── ErrorPage.jsx
-│   └── Dashboard/
-│       ├── DashboardHome.jsx
-│       ├── Profile.jsx
-│       ├── MyServices.jsx
-│       ├── AddService.jsx
-│       ├── UpdateService.jsx
-│       ├── MyBookings.jsx
-│       └── ProviderBookings.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
-```
 
 ## 🔐 Demo Credentials
 - **Demo User**: demo@homehero.com / Demo@123
-- **Demo Admin**: admin@homehero.com / Admin@123
 
-## 📝 Assignment Requirements Checklist
-- [x] Minimum 15 GitHub commits
-- [x] Well-written README.md
-- [x] Fully responsive design
-- [x] Environment variables for Firebase & API
-- [x] No Lorem Ipsum text
-- [x] Toast/SweetAlert2 for notifications
-- [x] Custom 404 Error page
-- [x] Loading states with spinners
-- [x] Private routes accessible after reload
-- [x] Price filtering with MongoDB operators
-- [x] Rating & Reviews system
-- [x] Theme customization (Dark/Light)
-- [x] Booking restriction (own service)
-- [x] Search & Filter system
-- [x] Dashboard with charts
 
 ---
 
