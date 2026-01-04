@@ -49,7 +49,7 @@
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/homehero-client.git
+git clone https://github.com/nazmulshishir01/herohomeclientsiderepo.git
 cd homehero-client
 ```
 
